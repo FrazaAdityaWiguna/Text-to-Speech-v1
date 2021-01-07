@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    align-items: center;
+    background: orangered   ;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    color: #fff;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.container{
+    text-align: center;
+}
+
+#txtInput{
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+
+}
+
+#btnSpeak{
+    background-color: orchid;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+}
+
+#btnSpeak:hover{
+    background: red;
+    border: 2px solid #000;
+    font-size: 20px;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
